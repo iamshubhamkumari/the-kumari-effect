@@ -106,7 +106,7 @@ const Header = () => {
             </a>
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/iamshubhamkumari"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-dark hover:text-primary text-xl transition-colors"
@@ -114,7 +114,7 @@ const Header = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://linkedin.com/in/janedoe"
+                href="https://www.linkedin.com/in/shubhamkumari29/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-dark hover:text-primary text-xl transition-colors"

@@ -1,11 +1,11 @@
 export const personalData = {
-  name: "Jane Doe",
+  name: "Shubham Kumari",
   title: "Frontend Engineer",
-  location: "CityName, Country",
-  email: "janedoe@email.com",
-  phone: "+1-234-567-8900",
-  linkedin: "linkedin.com/in/janedoe",
-  summary: "Frontend Engineer with 3 years of experience building scalable SPAs using React, TypeScript, and modern UI libraries. Proven impact in fintech and e-commerce. Skilled collaborator across engineering, design, and DevOps."
+  location: "Bengaluru, India",
+  email: "shubhamkumari571@email.com",
+  phone: "+916200651526",
+  linkedin: "linkedin.com/in/shubhamkumari29/",
+  summary: "Frontend Engineer with 2.5 years of experience building scalable SPAs using React, TypeScript, and modern UI libraries. Proven impact in fintech and e-commerce. Skilled collaborator across engineering, design, and DevOps."
 };
 
 export const skills = {
@@ -21,8 +21,8 @@ export const experience = [
   {
     id: 1,
     role: "UI Engineer II",
-    company: "TechCorp Pvt Ltd",
-    location: "CityName",
+    company: "ANS Digital Private Limited",
+    location: "Gurgaon India",
     period: "June 2024 – Present",
     responsibilities: [
       "Led frontend for a Shopify-like SaaS platform using HTML5, CSS3, React, and Redux",
@@ -33,8 +33,8 @@ export const experience = [
   {
     id: 2,
     role: "Software Engineer",
-    company: "CodeBase Solutions",
-    location: "CityName",
+    company: "Vaibhav Vyapaar Private Limited",
+    location: "Bengaluru India",
     period: "Dec 2022 – May 2024",
     responsibilities: [
       "Migrated Android-based app to React WebView",
@@ -48,14 +48,14 @@ export const education = [
   {
     id: 1,
     degree: "Master of Computer Applications",
-    university: "XYZ University",
+    university: "Usha Martin University",
     graduation: "July 2022",
     gpa: "8.1"
   },
   {
     id: 2,
     degree: "Bachelor of Computer Applications",
-    university: "ABC University",
+    university: "Ranchi University",
     graduation: "July 2019",
     gpa: "7.6"
   }
@@ -64,17 +64,25 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "Snowfence Web App",
-    description: "A centralized Snowflake management platform with automation and governance.",
-    technologies: ["React", "Tailwind CSS", "AWS AppSync", "GraphQL", "Karate Labs"],
+    title: "LoanFront Application",
+    description: "A digital digital lending platform that offers instant personal loan",
+    technologies: ["React", "REST APIs", "JavaScipt", "SCSS"],
+    github: "#",
+    demo: "https://www.loanfront.in/"
+  },
+  {
+    id: 2,
+    title: "LoanFront Admin Dashboard",
+    description: "This platform used to manage user activity, including loan repayment status and analyze loan performance in real time.",
+    technologies: ["React", "REST APIs", "JavaScipt", "Reactstrap"],
     github: "#",
     demo: "#"
   },
   {
-    id: 2,
-    title: "LoanFront Platform",
-    description: "A digital loan portal + internal dashboard for admins.",
-    technologies: ["React", "REST APIs", "Admin Dashboard", "Real-time updates"],
+    id: 3,
+    title: "Snowfence Web App",
+    description: "A centralized Snowflake management platform with automation and governance.",
+    technologies: ["React", "Tailwind CSS", "AWS AppSync", "GraphQL", "Karate Labs"],
     github: "#",
     demo: "#"
   }

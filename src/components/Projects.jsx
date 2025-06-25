@@ -34,14 +34,14 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex space-x-4">
-                  <a
+                  {/* <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center text-dark hover:text-primary transition-colors"
                   >
                     <FaGithub className="mr-2" /> Code
-                  </a>
+                  </a> */}
                   <a
                     href={project.demo}
                     target="_blank"

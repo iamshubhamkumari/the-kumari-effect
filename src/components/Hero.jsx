@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { personalData } from "../constants";
 import { useRef } from 'react';
+import './main.css'
 
 const Hero = () => {
   const heroRef = useRef();
@@ -89,7 +90,7 @@ const Hero = () => {
               >
                 <motion.a
                   href="#contact"
-                  className="btn btn-primary shadow-neumorph-inset hover:shadow-neumorph"
+                  className="custom-btn"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -97,11 +98,11 @@ const Hero = () => {
                 </motion.a>
                 <motion.a
                   href="#projects"
-                  className="btn btn-outline shadow-neumorph-inset hover:shadow-neumorph"
+                  className="custom-btn"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  View Projects
+                  Projects
                 </motion.a>
               </motion.div>
             </div>
